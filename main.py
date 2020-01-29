@@ -27,7 +27,7 @@ keyboard.row('10', '20')
 keyboard.row('50', '100')
 keyboard.row('Изменить', 'Удалить')
 user=Btc()
-bot = telebot.TeleBot('993942484:AAE2JjIWUY8YUGghYbUZajfs3B_ZNax_qbk')
+bot = telebot.TeleBot('your api')
 
 def callback(data_type, event):
     global user,bot
